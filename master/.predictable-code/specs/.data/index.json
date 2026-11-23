@@ -1,0 +1,25 @@
+{"witness-execution.json":
+ "what the RUNNER actually did on the last witness run, one entry per module driven (label, command, exitCode, succeeded, why, stdout, stderr, truncated) — shown so a reader can inspect a run, never parsed to decide anything; `succeeded` is about the INVOCATION and not about whether obligations held",
+ "unfiled/<n>.json":
+ "page n of the specs no module declares, in a module's shape",
+ "tree/<node>/<n>.json":
+ "page n of one node of the module tree: the node and pageSize of its children, each with its counts, functions, defects and outline number `no`; `_root` is the root",
+ "summary.json":
+ "the project's totals (#2572): the analysis summary, the requirement census over every spec, defects by claim with their facets, the module count, the call graph's size and `pageSize`. Every other file below is bounded by a page or one module; start here",
+ "modules/<module>.json":
+ "ONE module: its specs (with each requirement row's kind), the requirement↔finding join, its findings and their presentations, code locations, agent reviews, formality, witness evidence and proposals, contracts, diagnoses, theorems and inferred requirements (FIN-####). Its `requirementAnalysis` rows: per-requirement analysis join — displayed finding-first status ('issue' even when the mechanical flag says verified, EXCEPT a row enforced by a project callee, which is `safe` HERE because the check was found one call away; the spec page states that same row as a stated failure, so the two labels differ deliberately and `safe` here is what suppresses a duplicate defect row), subject FQN, scenario vc, unsafe entry points. Best-effort association: a finding whose condition cannot be rendered mints no requirement row (join via inferred-analysis.json's (fqn, vc)). Each row's `sites` lists every covered site the join resolved, each with that site's own status and FIN id; the row-level fields are its deciding site (the first of the worst status), so a (fqn, vc) join reads `sites`, never `scenarioVc` alone",
+ "module-names/<n>.json":
+ "page n of every module's id, label, outline number and file, in tree order — what a module search scans",
+ "generatedAt": "2026-11-23T16:41:51+00:00[UTC]",
+ "functions/<b>.json":
+ "bucket b of the call graph: one record per function (module, caller and callee counts, at most a page of each with the facts its box states)",
+ "function-names/<k>.json":
+ "the functions whose own name starts with the two letters k (ASCII folded) — what a function search reads",
+ "folders/<dir>/<n>.json":
+ "page n of one REPOSITORY folder that holds a finding (#2625): its direct children, folders then files, each with its defects and other findings over its subtree, and a file with every finding in it by key and claim; `dir` is the folder's repository path as one key, `_root` the root, whose page also counts the findings no path placed (`unplaced`)",
+ "finding-index/<b>.json":
+ "bucket b of `finding key → module, claim, page`; b is the low three hex digits of the key's FNV-1a",
+ "defects/<claim>/<n>.json":
+ "page n of one claim's findings (defect | advice | by-design | undecided), in priority order, each with its module, its wire row, its presentation and the requirement rows that state it",
+ "areas.json":
+ "{version, areas: [{name, description, parent}], page, pageState}: the project's TREE of areas, the named parts of the product a reader looks for, at most three levels deep, in the order of the Areas page (`_areas.md` in the specs directory) they are read from, which is pre-order: a parent before its children; `parent` is the name of the area it sits inside, null at the top; `areas: []` when there is no page. `page` is the Areas page's root-relative path, null unless it was read; `pageState` is `read`, `missing` (no page) or `unreadable` (a page that could not be read). Each spec's own areas are its `areas` in its module's specs, the narrowest it serves, names from this list (unique) compared case-insensitively. Documentation written by `specs fill-descriptions` or a person, never analysis"}

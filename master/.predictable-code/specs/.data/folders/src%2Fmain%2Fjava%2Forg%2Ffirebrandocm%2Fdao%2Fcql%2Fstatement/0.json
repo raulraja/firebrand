@@ -1,0 +1,1 @@
+{"defects":0,"dir":"src/main/java/org/firebrandocm/dao/cql/statement","others":1,"page":0,"pageSize":50,"rows":[{"defects":0,"defectsByLanguage":{},"findings":[{"claim":"undecided","key":"Code.org.firebrandocm.dao.cql.statement.Drop.build|il1.bounds"}],"kind":"file","name":"Drop.java","others":1,"path":"src/main/java/org/firebrandocm/dao/cql/statement/Drop.java"}],"total":1}

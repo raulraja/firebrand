@@ -1,0 +1,1 @@
+[{"fqn":"Code.org.firebrandocm.dao.impl.hector.CqlExecuteQuery.execute","label":"CqlExecuteQuery.execute","module":"org.firebrandocm.dao.impl.hector.CqlExecuteQuery"},{"fqn":"Code.org.firebrandocm.dao.impl.hector.HectorPersistenceFactory.executeQuery","label":"HectorPersistenceFactory.executeQuery","module":"org.firebrandocm.dao.impl.hector.HectorPersistenceFactory"}]

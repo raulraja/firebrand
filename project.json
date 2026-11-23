@@ -1,0 +1,17 @@
+{"sourceExtensions": ["java"],
+ "sandbox": null,
+ "runtime": null,
+ "name": "firebrand",
+ "mode": "yolo",
+ "maxRegenerateIterations": null,
+ "maxReconcileIterations": 3,
+ "guidelines": [],
+ "excludePaths": null,
+ "docPaths": ["."],
+ "docExtensions": ["md"],
+ "defaultSpecsDir": null,
+ "codePaths": ["src/main/java"],
+ "aiProvider":
+ {"model": "claude-sonnet-5",
+  "fastModel": "claude-haiku-4-5",
+  "engine": "claudeCode"}}

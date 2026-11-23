@@ -1,0 +1,24 @@
+{"runId": "2821-156559",
+ "response":
+ {"mechanical":
+  {"specsChecked": 112,
+   "requirementsViolated": 7,
+   "requirementsVerified": 17,
+   "requirementsInferred": 84,
+   "requirementCensus":
+   {"witnessUnexercised": 0,
+    "witnessHeld": 0,
+    "violated": 7,
+    "verified": 17,
+    "untested": 0,
+    "tested": 0,
+    "statedFailure": 64,
+    "requirements": 24,
+    "observed": 0,
+    "notDecided": 0,
+    "modules": 112,
+    "documented": 5,
+    "agentVerified": 0},
+   "functionsWithIssues": 7,
+   "findingsTotal": 12}},
+ "inputsDigest": "14917520353040881942:prove="}

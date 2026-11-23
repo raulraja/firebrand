@@ -1,0 +1,92 @@
+{"version": 1,
+ "rows":
+ [{"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.convertWrite|il1.domain-guard",
+   "id": "ANL-0001"},
+  {"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.fireEntityEvent|il1.domain-guard",
+   "id": "ANL-0002"},
+  {"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.getInstance|il1.domain-guard",
+   "id": "ANL-0003"},
+  {"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.init|il1.domain-guard",
+   "id": "ANL-0004"},
+  {"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.initializeKeyspaceDefinitions|il1.null-dereference",
+   "id": "ANL-0005"},
+  {"key":
+   "org/firebrandocm/dao/AbstractPersistenceFactory.java|AbstractPersistenceFactory.loadMappedEntity_1|il1.domain-guard",
+   "id": "ANL-0006"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.constructor|il1.domain-guard",
+   "id": "ANL-0007"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.createProxy|il1.domain-guard",
+   "id": "ANL-0008"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.getNamedQuery|il1.domain-guard",
+   "id": "ANL-0009"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.initializeNamedQueries|il2.domain-guard",
+   "id": "ANL-0010"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.initializeNamedQueries|il1.bounds",
+   "id": "ANL-0011"},
+  {"key":
+   "org/firebrandocm/dao/ClassMetadata.java|ClassMetadata.new|il1.domain-guard",
+   "id": "ANL-0012"},
+  {"key":
+   "org/firebrandocm/dao/cql/QueryBuilder.java|QueryBuilder.convert_1|il1.negative-size",
+   "id": "ANL-0013"},
+  {"key":
+   "org/firebrandocm/dao/cql/QueryBuilder.java|QueryBuilder.convert_1|il2.bounds",
+   "id": "ANL-0014"},
+  {"key":
+   "org/firebrandocm/dao/cql/QueryBuilder.java|QueryBuilder.addConverter|desc:`QueryBuilder.addConverter` is only called when `position` is one of 0 and 1.",
+   "id": "ANL-0015"},
+  {"key":
+   "org/firebrandocm/dao/cql/clauses/ClauseComparator.java|ClauseComparator.compare|il1.null-dereference",
+   "id": "ANL-0016"},
+  {"key":
+   "org/firebrandocm/dao/cql/converters/CQLDateValueConverter.java|CQLDateValueConverter.convert|il1.conversion",
+   "id": "ANL-0017"},
+  {"key": "org/firebrandocm/dao/cql/statement/Drop.java|Drop.build|il1.bounds",
+   "id": "ANL-0018"},
+  {"key":
+   "org/firebrandocm/dao/cql/statement/Drop.java|Drop.build|il2.domain-guard",
+   "id": "ANL-0019"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|TypeConverterSerializer.fromByteBuffer|il1.domain-guard",
+   "id": "ANL-0020"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|TypeConverterSerializer.toByteBuffer|il1.domain-guard",
+   "id": "ANL-0021"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|HectorPersistenceFactory.init|il1.domain-guard",
+   "id": "ANL-0022"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|HectorPersistenceFactory.loadLazyPropertyIfNecessary|il1.bounds",
+   "id": "ANL-0023"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|HectorPersistenceFactory.persist|il1.domain-guard",
+   "id": "ANL-0024"},
+  {"key":
+   "org/firebrandocm/dao/impl/hector/HectorPersistenceFactory.java|HectorPersistenceFactory.remove|il1.domain-guard",
+   "id": "ANL-0025"},
+  {"key":
+   "org/firebrandocm/dao/utils/ClassUtil.java|ClassUtil.get_1|il1.domain-guard",
+   "id": "ANL-0026"},
+  {"key":
+   "org/firebrandocm/dao/utils/ObjectUtils.java|ObjectUtils.defenseNotNull|il2.bounds",
+   "id": "ANL-0027"},
+  {"key":
+   "org/firebrandocm/dao/utils/ObjectUtils.java|ObjectUtils.getAllFieldsInHierarchy|il1.negative-size",
+   "id": "ANL-0028"},
+  {"key":
+   "org/firebrandocm/dao/utils/ObjectUtils.java|ObjectUtils.getAllMethodsInHierarchy|il1.negative-size",
+   "id": "ANL-0029"},
+  {"key":
+   "org/firebrandocm/dao/utils/ObjectUtils.java|ObjectUtils.notNull|il1.self-guard",
+   "id": "ANL-0030"}],
+ "next": 31}
